@@ -33,8 +33,9 @@ Na interface do Google Earth / TerraVision, o design orienta a navegação intui
 ---
 
 ## 4. Evidência Mapeada (Captura de Tela)
-![Calota Polar - Google Earth](link_da_sua_imagem_aqui.png)
-*(Insira aqui o print do Google Earth mostrando uma região polar ou geleira)*
+![<img width="400" height="473" alt="image" src="https://github.com/user-attachments/assets/c61414a1-a6b1-4b2a-b54a-73370ef33f98" />
+]([link_da_sua_imagem_aqui.png](https://x.com/infomoney/status/2104360439689756952))
+
 
 ---
 
