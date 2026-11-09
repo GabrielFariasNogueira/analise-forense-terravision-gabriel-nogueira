@@ -124,7 +124,10 @@ Percebemos elementos alinhados como parte de uma linha contínua, e o olhar tend
 
 > Captura de tela do Google Earth mostrando a calota polar em zoom, com a textura do gelo visível.
 
-![Calota Polar](print-polar.png)
+<img width="892" height="639" alt="print-polar-longe" src="https://github.com/user-attachments/assets/753a1966-f449-4db9-b7f8-23f99dc0c68a" />
+
+<img width="666" height="781" alt="Captura de tela 2026-11-09 095032" src="https://github.com/user-attachments/assets/159a1c2d-c7e7-47c4-8cd0-375e960ef652" />
+
 
 ---
 
