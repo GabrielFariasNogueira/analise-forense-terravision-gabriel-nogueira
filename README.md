@@ -3,12 +3,12 @@
 
 | | |
 |---|---|
-| **Instituição** | Colégio Estadual Rodolpho Zaninelli |
-| **Curso** | Técnico em Desenvolvimento de Sistemas – Turma 3ºD |
-| **Disciplina** | Computação Gráfica e Ciência de Dados |
-| **Professora** | Angélica Neckel |
-| **Estudante** | Gabriel Farias Nogueira |
-| **Estudo de caso** | Disputa de patentes do TerraVision contra o Google Earth, retratada na minissérie *Batalha Bilionária: O Caso Google Earth* (Netflix, 2021) |
+| **Instituição:** | Colégio Estadual Rodolpho Zaninelli |
+| **Curso:** | Técnico em Desenvolvimento de Sistemas – Turma 3ºD |
+| **Disciplina:** | Computação Gráfica e Ciência de Dados |
+| **Professora:** | Angélica Neckel |
+| **Estudante:** | Gabriel Farias Nogueira |
+| **Estudo de caso:** | Disputa de patentes do TerraVision contra o Google Earth, retratada na minissérie *Batalha Bilionária: O Caso Google Earth* (Netflix, 2021) |
 
 ---
 
