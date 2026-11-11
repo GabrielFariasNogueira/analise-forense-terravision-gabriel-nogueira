@@ -155,5 +155,4 @@ O caso TerraVision × Google Earth mostra que, em tecnologia, parecer igual não
  IPWatchdog. "Billion Dollar Code brings to life the nasty patent battle over Google Earth", 25/01/2022.
  United States Court of Appeals for the Federal Circuit. *ART+COM Innovationpool GmbH v. Google LLC*, nº 2017-1016, 20/10/2017.
  The Daily Dot. "German firm says Google infringed on its patent when it made Google Earth", 23/02/2014.
-- Wikipedia. "Terravision (computer program)".
 - Documentação de OpenCV sobre CLAHE e stitching; NSIDC (National Snow and Ice Data Center), sobre albedo e dados de gelo.
