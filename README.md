@@ -60,7 +60,10 @@ O arquivo `script.py` implementa a função `carregar_camada_satelite(lista_alti
 ### Como executar
 
 ```bash
-python script.py
+Abra no VScode uma pasta onde terá os seguintes arquivos:
+gro1.png ao gro7.png
+polo_sul_1 ao polo_sul_7
+script_FINAL.py
 ```
 
 A bateria de testes usa a lista `[35000, 12000, 8500, 3200, 450]`, e a saída esperada é: baixa, baixa, média, média e alta resolução, nessa ordem.
