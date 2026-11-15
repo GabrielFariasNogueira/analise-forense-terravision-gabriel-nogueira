@@ -14,7 +14,7 @@
 
 ## 1. Contexto do caso
 
-### 1.1 A minissérie
+### A minissérie
 
 *Batalha Bilionária: O Caso Google Earth* (título original: *Billion Dollar Code*) é uma minissérie alemã de quatro episódios, dirigida por Robert Thalheim e lançada na Netflix em outubro de 2021. A história é baseada em fatos reais, mas dramatizada: os personagens são em parte ficcionais ou inspirados em pessoas reais. Por exemplo, Carsten Schlüter é parcialmente baseado no pioneiro da arte computacional Joachim Sauter (1959–2021), um dos fundadores da ART+COM.
 
@@ -25,7 +25,7 @@ A narrativa alterna duas linhas do tempo:
 
 Em resumo, a série trata de uma pergunta central: **quem inventou a forma de navegar pela Terra inteira em um computador, e uma patente consegue provar isso?**
 
-### 1.2 O que realmente aconteceu
+### O que realmente aconteceu
 
 | Ano | Fato |
 |---|---|
@@ -69,7 +69,7 @@ A bateria de testes usa a lista `[35000, 12000, 8500, 3200, 450]`, e a saída es
 
 ## 3. Tratamento de Imagem: desafios de renderização polar
 
-### 3.1 Albedo e brilho excessivo
+### Albedo e brilho excessivo
 
 **Albedo** é a fração da luz solar que uma superfície reflete. Neve e gelo recentes refletem cerca de 80% a 90% da luz, enquanto o oceano aberto e o solo escuro refletem muito menos. Isso gera problemas na renderização:
 
@@ -79,13 +79,13 @@ A bateria de testes usa a lista `[35000, 12000, 8500, 3200, 450]`, e a saída es
 
 **Soluções típicas:** correção gama, *tone mapping*, redução de exposição em áreas muito claras e normalização radiométrica entre cenas. No `script.py`, isso é representado pela flag `ajuste_albedo`, ativada apenas no nível de alta resolução, onde a textura precisa ser preservada.
 
-### 3.2 Baixo contraste no gelo
+### Baixo contraste no gelo
 
 Em áreas de gelo contínuo, a imagem tem poucas variações de tom. Gelo, neve e nuvens finas podem ficar quase idênticos, o que dificulta enxergar fendas, sastrugi (ondulações causadas pelo vento) e limites de geleiras.
 
 **Soluções típicas:** equalização de histograma adaptativa (**CLAHE**), realce de bordas, uso de bandas espectrais além da visível (infravermelho) e filtros de nitidez aplicados com cuidado para não amplificar ruído.
 
-### 3.3 Stitching (costura) de mosaicos
+### Stitching (costura) de mosaicos
 
 Montar o mosaico polar a partir de milhares de fotos de satélite tem dificuldades próprias:
 
@@ -101,7 +101,7 @@ Montar o mosaico polar a partir de milhares de fotos de satélite tem dificuldad
 
 ## 4. Design e Gestalt na UI ao aproximar o zoom no gelo polar
 
-### 4.1 Lei da Figura-Fundo
+### Lei da Figura-Fundo
 
 A mente separa uma cena em um elemento em destaque (**figura**) e o restante (**fundo**).
 
@@ -109,7 +109,7 @@ A mente separa uma cena em um elemento em destaque (**figura**) e o restante (**
  **O risco:** em zoom alto, gelo contra neve ou nuvem tem pouco contraste, e a figura se confunde com o fundo. O ajuste de albedo e contraste do `script.py` tem justamente a função de recuperar essa separação.
  **Na interface:** rótulos, ícones e painéis devem ter fundo semitransparente escuro ou contorno, pois texto branco sobre gelo branco fica ilegível. O elemento de UI precisa ser a figura, e o mapa, o fundo.
 
-### 4.2 Lei da Continuidade
+### Lei da Continuidade
 
 Percebemos elementos alinhados como parte de uma linha contínua, e o olhar tende a seguir curvas e direções sem interrupções bruscas.
 
