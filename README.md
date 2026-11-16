@@ -23,8 +23,6 @@ A narrativa alterna duas linhas do tempo:
  **Anos 1990, em Berlim:** logo após a reunificação alemã, jovens programadores e artistas da cena hacker e de arte experimental criam o TerraVision, um software que permite "voar" sobre um modelo digital da Terra. A série mostra a busca por financiamento (como as reuniões com a Deutsche Telekom) e o idealismo da época, em contraste com o Vale do Silício que surgia.
  **Anos 2010, no tribunal:** os criadores processam o Google, alegando que o Google Earth usa a mesma ideia que eles inventaram e patentearam.
 
-Em resumo, a série trata de uma pergunta central: **quem inventou a forma de navegar pela Terra inteira em um computador, e uma patente consegue provar isso?**
-
 ### O que realmente aconteceu
 
 | Ano | Fato |
@@ -37,7 +35,7 @@ Em resumo, a série trata de uma pergunta central: **quem inventou a forma de na
 | Mai. 2016 | Um júri decide a favor do Google: a patente foi considerada inválida por já ter sido antecipada por tecnologia anterior (*prior art*). |
 | Out. 2017 | O Tribunal de Apelações do Circuito Federal dos EUA mantém a decisão, e o caso termina com a derrota da ART+COM. |
 
-Um ponto que reforça o argumento da ART+COM: Michael Jones e Brian McClendon, executivos ligados ao Google Earth, trabalharam na SGI na época em que o TerraVision era desenvolvido, e McClendon também trabalhou na Keyhole. A defesa do Google, porém, sustentou que a patente descrevia algo que já existia antes, apoiando-se em um sistema anterior (o "SRI TerraVision", de outra instituição, sem relação com o da ART+COM, apesar do nome parecido).
+O argumento da ART+COM: Michael Jones e Brian McClendon, executivos ligados ao Google Earth, trabalharam na SGI na época em que o TerraVision era desenvolvido, e McClendon também trabalhou na Keyhole. A defesa do Google, porém, sustentou que a patente descrevia algo que já existia antes, apoiando-se em um sistema anterior (o "SRI TerraVision", de outra instituição, sem relação com o da ART+COM, apesar do nome parecido).
 
 > **Curiosidade:** existe outra disputa, anterior e distinta: *Skyline Software Systems* contra a Keyhole e o Google (2004 a 2008), que também tratava de visualização 3D da Terra, mas terminou em acordo. O caso da minissérie é o da ART+COM.
 
